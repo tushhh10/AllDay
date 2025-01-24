@@ -1,6 +1,6 @@
 package crt_g9;
 
-public class PrimeNov2 {
+public class PrimeNuv3 {
 
 	public static void main(String[] args) {
 		for (int i = 1, k = 0; i < 100; i++) {
@@ -12,8 +12,8 @@ public class PrimeNov2 {
 			}
 			if (counter == 2) {
 				System.out.print(num + " ");
-				k++;
-				if (k == 6) {
+				//k++;
+				if (++k % 8== 0) {
 					System.out.println();
 					k = 0;
 				}
